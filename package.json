@@ -1,0 +1,29 @@
+{
+  "name": "professional-images",
+  "version": "1.0.0",
+  "description": "Add random placeholder images to your development site! All of the images are professional and normal.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mickwilliams/professional-images.git"
+  },
+  "author": "mickwilliams",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mickwilliams/professional-images/issues"
+  },
+  "homepage": "https://github.com/mickwilliams/professional-images#readme",
+  "dependencies": {
+    "canvas": "^1.6.11",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.3",
+    "fs-extra": "^7.0.0",
+    "helmet": "^3.12.2",
+    "random-js": "^1.0.8",
+    "winston": "^3.0.0",
+    "winston-papertrail": "^1.0.5"
+  }
+}
