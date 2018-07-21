@@ -9,8 +9,7 @@ git clone https://github.com/mickwilliams/professional-images.git
 cd professional-images
 heroku create professionalimages
 heroku git:remote -a professionalimages
-git push heroku master
-
+sh buildpack.sh
 ```
 
 There you go.
